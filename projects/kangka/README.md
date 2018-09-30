@@ -1,1 +1,1 @@
-Name:Kai Kang ONID:kangka
+This is my assignment-1 submission!
