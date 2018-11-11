@@ -24,7 +24,7 @@ for(int i=0;i<size;i++ )
 struct gameState emptyG;//using a empty static gamestruct for resetting during each testing
 
 int main(){
-printf("now random testing adventurer \n");
+printf("now random testing smithy \n");
 srand(time(0));//refresh random seed
 int k[10]={adventurer,council_room,feast,gardens,mine,remodel,smithy,village,baron,great_hall},//10 kingdom cards
 numSuc=0, numFai=0;//count the number of successful/failed random testing
@@ -67,38 +67,24 @@ numSuc=0, numFai=0;//count the number of successful/failed random testing
 			{
 				int randCard=randInt(9);
 				g.hand[i][j]=k[randCard];//fill the hand with random kingdom cards
-				if(randCard==0)	{testingCardInserted=1;}//if at least 1 testing card is in any handcard, update flag
+				if(randCard==6)	{testingCardInserted=1;}//if at least 1 testing card is in any handcard, update flag
 			}
 
-			for(int j=0;j<g.handCount[j];j++)
-			{
-				if(randInt(3)==1) // one-fourth of the hand cards are treasures
-				{
-					g.hand[i][j]=copper;
-				}
-			}
 
 			for(int j=0;j<g.discardCount[i];j++)
 			{
 				g.discard[i][j]=k[randInt(9)];//fill the discard with random kingdom cards	
 			}
 
-			for(int j=0;j<g.discardCount[j];j++)
-			{
-				if(randInt(3)==1) // one-fourth of the discards are treasures
-				{
-					g.discard[i][j]=copper;
-				}
-			}
 		}
 
 		if(testingCardInserted==0)//insert the testing card if it doesn't exist after random card assignment
-		{g.hand[0][0]=adventurer;} 
+		{g.hand[0][0]=smithy;} 
 
 		if(treasureCardsInserted<2)//insert the minimum treasure card if there are insufficient number of treasure
 		{g.deck[0][1]=copper; g.deck[0][2]=copper;}
 
-		int turn=cardEffect(adventurer,0,0,0,&g,1,0);//cardEffect will return 1 if unsuccessful
+		int turn=cardEffect(smithy,0,0,0,&g,1,0);//cardEffect will return 1 if unsuccessful
 		if(turn)
 			{
 			printf("test%d Failed,function returned non 0 value \n", (50-numTest));
@@ -106,25 +92,25 @@ numSuc=0, numFai=0;//count the number of successful/failed random testing
 			continue;
 			}
 
-		if(g.handCount[0]!=(iniHandCounts[0]+1))//check the hand count increment
+		if(g.handCount[0]!=(iniHandCounts[0]+14))//check the hand count increment
 			{
 			printf("test%d Failed,wrong hand card change \n", (50-numTest));
 			numFai++;
 			continue;
 			}
 
-		int numDiscarded=iniDisCounts[0]-g.discardCount[0]; //read the number of new discards
-		if(iniDeckCounts[0]-g.deckCount[0]==(numDiscarded+2)) //check deck decrement
+		int disAndDeck=g.discardCount[0]+g.deckCount[0];//count the total number of non-hand cards
+		if(disAndDeck!=iniDeckCounts[0]+iniDisCounts[0]-15)
 			{
-			printf("test%d Failed,wrong deck change \n", (50-numTest));
+			printf("test%d Failed,wrong number of non-hand cards \n", (50-numTest));
 			numFai++;
 			continue;
-			}
+			}; 
 
 		printf("test%d successful \n", (50-numTest));
 		numSuc++;
 		}
 	printf("all test done, %d out of 50 tests are succssful. \n", numSuc);
 	printf("all test done, %d out of 50 tests are failed. \n", numFai);
-	printf("random testing adventurer done\n\n\n\n");
+	printf("random testing smithy done\n\n\n\n");
 }
