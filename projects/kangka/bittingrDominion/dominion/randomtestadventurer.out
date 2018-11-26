@@ -1,0 +1,198 @@
+now random testing adventurer 
+test0 Failed,wrong hand card change 
+test1 Failed,wrong hand card change 
+test2 Failed,wrong hand card change 
+test3 Failed,wrong hand card change 
+test4 Failed,wrong hand card change 
+test5 Failed,wrong hand card change 
+test6 Failed,wrong hand card change 
+test7 Failed,wrong hand card change 
+test8 Failed,wrong hand card change 
+test9 Failed,wrong hand card change 
+test10 Failed,wrong hand card change 
+test11 Failed,wrong hand card change 
+test12 Failed,wrong hand card change 
+test13 Failed,wrong hand card change 
+test14 Failed,wrong hand card change 
+test15 Failed,wrong hand card change 
+test16 Failed,wrong hand card change 
+test17 Failed,wrong hand card change 
+test18 Failed,wrong hand card change 
+test19 Failed,wrong hand card change 
+test20 Failed,wrong hand card change 
+test21 Failed,wrong hand card change 
+test22 Failed,wrong hand card change 
+test23 Failed,wrong hand card change 
+test24 Failed,wrong hand card change 
+test25 Failed,wrong hand card change 
+test26 Failed,wrong hand card change 
+test27 Failed,wrong hand card change 
+test28 Failed,wrong hand card change 
+test29 Failed,wrong hand card change 
+test30 Failed,wrong hand card change 
+test31 Failed,wrong hand card change 
+test32 Failed,wrong hand card change 
+test33 Failed,wrong hand card change 
+test34 Failed,wrong hand card change 
+test35 Failed,wrong hand card change 
+test36 Failed,wrong hand card change 
+test37 Failed,wrong hand card change 
+test38 Failed,wrong hand card change 
+test39 Failed,wrong hand card change 
+test40 Failed,wrong hand card change 
+test41 Failed,wrong hand card change 
+test42 Failed,wrong hand card change 
+test43 Failed,wrong hand card change 
+test44 Failed,wrong hand card change 
+test45 Failed,wrong hand card change 
+test46 Failed,wrong hand card change 
+test47 Failed,wrong hand card change 
+test48 Failed,wrong hand card change 
+test49 Failed,wrong hand card change 
+all test done, 0 out of 50 tests are succssful. 
+all test done, 50 out of 50 tests are failed. 
+random testing adventurer done
+
+
+Function 'adventurerEffect'
+Lines executed:100.00% of 16
+No branches
+No calls
+
+Function 'updateCoins'
+Lines executed:81.82% of 11
+No branches
+No calls
+
+Function 'gainCard'
+Lines executed:0.00% of 13
+No branches
+No calls
+
+Function 'discardCard'
+Lines executed:0.00% of 13
+No branches
+No calls
+
+Function 'cardEffect'
+Lines executed:4.39% of 228
+No branches
+No calls
+
+Function 'embargoEffect'
+Lines executed:0.00% of 7
+No branches
+No calls
+
+Function 'villageEffect'
+Lines executed:0.00% of 5
+No branches
+No calls
+
+Function 'councilRoomEffect'
+Lines executed:0.00% of 9
+No branches
+No calls
+
+Function 'smithyEffect'
+Lines executed:0.00% of 5
+No branches
+No calls
+
+Function 'getCost'
+Lines executed:0.00% of 57
+No branches
+No calls
+
+Function 'drawCard'
+Lines executed:36.36% of 22
+No branches
+No calls
+
+Function 'getWinners'
+Lines executed:0.00% of 24
+No branches
+No calls
+
+Function 'scoreFor'
+Lines executed:0.00% of 24
+No branches
+No calls
+
+Function 'isGameOver'
+Lines executed:0.00% of 10
+No branches
+No calls
+
+Function 'endTurn'
+Lines executed:0.00% of 20
+No branches
+No calls
+
+Function 'whoseTurn'
+Lines executed:100.00% of 2
+No branches
+No calls
+
+Function 'fullDeckCount'
+Lines executed:0.00% of 9
+No branches
+No calls
+
+Function 'supplyCount'
+Lines executed:0.00% of 2
+No branches
+No calls
+
+Function 'handCard'
+Lines executed:0.00% of 3
+No branches
+No calls
+
+Function 'numHandCards'
+Lines executed:0.00% of 2
+No branches
+No calls
+
+Function 'buyCard'
+Lines executed:0.00% of 13
+No branches
+No calls
+
+Function 'playCard'
+Lines executed:0.00% of 14
+No branches
+No calls
+
+Function 'shuffle'
+Lines executed:93.75% of 16
+No branches
+No calls
+
+Function 'initializeGame'
+Lines executed:95.16% of 62
+No branches
+No calls
+
+Function 'kingdomCards'
+Lines executed:0.00% of 13
+No branches
+No calls
+
+Function 'newGame'
+Lines executed:0.00% of 3
+No branches
+No calls
+
+Function 'compare'
+Lines executed:100.00% of 6
+No branches
+No calls
+
+File 'dominion.c'
+Lines executed:20.53% of 609
+Branches executed:24.70% of 417
+Taken at least once:17.03% of 417
+Calls executed:11.58% of 95
+Creating 'dominion.c.gcov'
+

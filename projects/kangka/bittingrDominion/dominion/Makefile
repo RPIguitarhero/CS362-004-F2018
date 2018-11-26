@@ -115,20 +115,6 @@ unittestresult.out:unittest1.c unittest2.c unittest3.c unittest4.c cardtest1.c c
 	./cardtest4>>unittestresult.out
 	gcov -f -b dominion.c>>unittestresult.out			
 
-	echo "randomtestadventurer.c">>unittestresult.out
-	gcc -o randomtestadventurer -g randomtestadventurer.c dominion.o rngs.o $(CFLAGS)
-	./randomtestadventurer>>randomtestadventurer.out
-	gcov -f -b dominion.c>>randomtestadventurer.out
-
-	echo "randomtestcard1.c">>unittestresult.out
-	gcc -o randomtestcard1 -g randomtestcard1.c dominion.o rngs.o $(CFLAGS)
-	./randomtestcard1>>randomtestcard1.out
-	gcov -f -b dominion.c>>randomtestcard1.out
-
-	echo "randomtestcard2.c">>unittestresult.out
-	gcc -o randomtestcard2 -g randomtestcard2.c dominion.o rngs.o $(CFLAGS)
-	./randomtestcard2>>randomtestcard2.out
-	gcov -f -b dominion.c>>randomtestcard2.out
 	
 player: player.c interface.o
 	gcc -o player player.c -g  dominion.o rngs.o interface.o $(CFLAGS)

@@ -1,0 +1,199 @@
+now random testing council room 
+test0 successful 
+test1 successful 
+test2 successful 
+test3 successful 
+test4 successful 
+test5 successful 
+test6 successful 
+test7 successful 
+test8 successful 
+test9 successful 
+test10 successful 
+test11 successful 
+test12 successful 
+test13 successful 
+test14 successful 
+test15 successful 
+test16 successful 
+test17 successful 
+test18 successful 
+test19 successful 
+test20 successful 
+test21 successful 
+test22 successful 
+test23 successful 
+test24 successful 
+test25 successful 
+test26 successful 
+test27 successful 
+test28 successful 
+test29 successful 
+test30 successful 
+test31 successful 
+test32 successful 
+test33 successful 
+test34 successful 
+test35 successful 
+test36 successful 
+test37 successful 
+test38 successful 
+test39 successful 
+test40 successful 
+test41 successful 
+test42 successful 
+test43 successful 
+test44 successful 
+test45 successful 
+test46 successful 
+test47 successful 
+test48 successful 
+test49 successful 
+all test done, 50 out of 50 tests are succssful. 
+all test done, 0 out of 50 tests are failed. 
+random testing council room done
+
+
+
+Function 'updateCoins'
+Lines executed:81.82% of 11
+No branches
+No calls
+
+Function 'gainCard'
+Lines executed:0.00% of 13
+No branches
+No calls
+
+Function 'discardCard'
+Lines executed:92.31% of 13
+No branches
+No calls
+
+Function 'cardEffect'
+Lines executed:7.02% of 228
+No branches
+No calls
+
+Function 'embargoEffect'
+Lines executed:0.00% of 7
+No branches
+No calls
+
+Function 'villageEffect'
+Lines executed:0.00% of 5
+No branches
+No calls
+
+Function 'councilRoomEffect'
+Lines executed:100.00% of 9
+No branches
+No calls
+
+Function 'adventurerEffect'
+Lines executed:100.00% of 16
+No branches
+No calls
+
+Function 'smithyEffect'
+Lines executed:100.00% of 5
+No branches
+No calls
+
+Function 'getCost'
+Lines executed:0.00% of 57
+No branches
+No calls
+
+Function 'drawCard'
+Lines executed:36.36% of 22
+No branches
+No calls
+
+Function 'getWinners'
+Lines executed:0.00% of 24
+No branches
+No calls
+
+Function 'scoreFor'
+Lines executed:0.00% of 24
+No branches
+No calls
+
+Function 'isGameOver'
+Lines executed:0.00% of 10
+No branches
+No calls
+
+Function 'endTurn'
+Lines executed:0.00% of 20
+No branches
+No calls
+
+Function 'whoseTurn'
+Lines executed:100.00% of 2
+No branches
+No calls
+
+Function 'fullDeckCount'
+Lines executed:0.00% of 9
+No branches
+No calls
+
+Function 'supplyCount'
+Lines executed:0.00% of 2
+No branches
+No calls
+
+Function 'handCard'
+Lines executed:0.00% of 3
+No branches
+No calls
+
+Function 'numHandCards'
+Lines executed:0.00% of 2
+No branches
+No calls
+
+Function 'buyCard'
+Lines executed:0.00% of 13
+No branches
+No calls
+
+Function 'playCard'
+Lines executed:0.00% of 14
+No branches
+No calls
+
+Function 'shuffle'
+Lines executed:93.75% of 16
+No branches
+No calls
+
+Function 'initializeGame'
+Lines executed:95.16% of 62
+No branches
+No calls
+
+Function 'kingdomCards'
+Lines executed:0.00% of 13
+No branches
+No calls
+
+Function 'newGame'
+Lines executed:0.00% of 3
+No branches
+No calls
+
+Function 'compare'
+Lines executed:100.00% of 6
+No branches
+No calls
+
+File 'dominion.c'
+Lines executed:25.78% of 609
+Branches executed:28.06% of 417
+Taken at least once:20.38% of 417
+Calls executed:18.95% of 95
+Creating 'dominion.c.gcov'
+
