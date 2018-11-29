@@ -35,7 +35,8 @@ public class UrlValidatorTest extends TestCase {
            "HTTP://sina.com/123f123*12@)_3",
            "http://255.255.255.255:0/test1/file?action=edit&mode=up",
            "ftp://www.google.com:65535/test1?action=edit&mode=up",
-           "ftp://blank"
+           "ftp://blank",
+           "http://youtube.com:40/"
            };
    
    public void testManualTest()
@@ -50,6 +51,8 @@ public class UrlValidatorTest extends TestCase {
     	  try{result= urlVal.isValid(testingURL[i]);}
          catch(Error e) //Kai:catch URLs causing error and print them
     	  {System.out.println(testingURL[i]+" caused "+e);continue;}
+    	  catch(Exception E) //Kai:just in case something happens, catch URLs causing error and print them
+    	  {System.out.println(testingURL[i]+" caused "+E);continue;}
     	//Kai:print URLs with recognizable results
     	  System.out.println(testingURL[i]+" returned result "+result);
       }
@@ -116,6 +119,8 @@ public class UrlValidatorTest extends TestCase {
 	    	  try{result= urlVal.isValid(testingUrl);}
 	         catch(Error e) //Kai:just in case something happens, catch URLs causing error and print them
 	    	  {System.out.println(testingUrl+" caused "+e);continue;}
+	    	  catch(Exception E) //Kai:just in case something happens, catch URLs causing error and print them
+	    	  {System.out.println(testingUrl+" caused "+E);continue;}
 	    	//Kai:print URLs with unexpected results
 	    	  if(result==false)
 	    	  {System.out.println(testingUrl+" returned unexpected result "+result);}
@@ -142,6 +147,8 @@ public class UrlValidatorTest extends TestCase {
 	    	  try{result= urlVal.isValid(testingUrl);}
 	         catch(Error e) //Kai:just in case something happens,catch URLs causing error and print them
 	    	  {System.out.println(testingUrl+" caused "+e);continue;}
+	    	  catch(Exception E) //Kai:just in case something happens, catch URLs causing error and print them
+	    	  {System.out.println(testingUrl+" caused "+E);continue;}
 	    	//Kai:print URLs with unexpected results
 	    	  if(result==false)
 	    	  {System.out.println(testingUrl+" returned unexpected result "+result);}			   
@@ -154,7 +161,7 @@ public class UrlValidatorTest extends TestCase {
    public void testIsValid()
    {
       //You can use this function for programming based testing
-	   
+	   /*
 	   UrlValidator urlVal = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
 	   for(int i=0;i<validAuthority.length;i++) //Kai:testing assumed valid query and fragments
 	      {
@@ -179,7 +186,7 @@ public class UrlValidatorTest extends TestCase {
 			   }
 		   }
 	      }
-	   System.out.println("IsValid testing done.\n---------------------------------\n");
+	   System.out.println("IsValid testing done.\n---------------------------------\n");*/
    }
    
 
