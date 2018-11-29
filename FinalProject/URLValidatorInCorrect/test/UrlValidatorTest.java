@@ -160,8 +160,7 @@ public class UrlValidatorTest extends TestCase {
    
    public void testIsValid()
    {
-      //You can use this function for programming based testing
-	   /*
+      
 	   UrlValidator urlVal = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
 	   for(int i=0;i<validAuthority.length;i++) //Kai:testing assumed valid query and fragments
 	      {
@@ -186,7 +185,7 @@ public class UrlValidatorTest extends TestCase {
 			   }
 		   }
 	      }
-	   System.out.println("IsValid testing done.\n---------------------------------\n");*/
+	   System.out.println("IsValid testing done.\n---------------------------------\n");
    }
    
 
